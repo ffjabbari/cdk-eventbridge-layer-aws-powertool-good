@@ -1,14 +1,25 @@
 It is completed.... FFJ:
+
 The key here is this:
+
 a. The most important thing is that npm install @aws-cdk/core     HAS TO BE LOCAL. NO NO NO -g paramter.  MUST MUST MUST USE V2 and never V1 of AWS-CDK.
+
 b. you may howerver to do a global on typescript ( > inpm install typescript -b)
+
 c. next and really the first thing is to do (> npm install ) which will install everything for you.
+
 d.  MUST MUST MUST cdk must be v2 or look at your ~/.zshrc and use CDK2 ALIAS .. CDK should also point to V2.  sor CDK and CDK2 must be equal.
+
 e. aws configure       ( It should be local no profile)
+
 f. MUST MUST DO cdk bootstrap command next to connect it to your AWS. (> cdk bootstrap aws://636090713215/us-east-1)
+
 g. CDK synth
+
 h. CDK deploy
+
 i. CDK destroy
+
 
 
 STEPS:
