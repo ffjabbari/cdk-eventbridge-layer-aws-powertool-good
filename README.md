@@ -1,14 +1,25 @@
 It is completed.... FFJ:
+
 STEPS:
+
 cd into your dir
+
 npm install @aws-cdk/core
+
 npm install typescript -g
+
 npm i
+
 cdk bootstrap aws://636090713215/us-east-1
+
 cdk synth
+
 cdk deploy
+
 cdk destroy
+
 WORKS PERFECTLY FFJ
+
 # EventBridge No Match Rule
 
 AWS EventBridge does not natively provide a way to catch events which do not match any rules defined on an event bus. This AWS CDK project defines a custom construct, `NoMatchRule`, which captures unmatched events and forwards them to an SQS queue of your choosing.
