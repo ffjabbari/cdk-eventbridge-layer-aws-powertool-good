@@ -8,7 +8,7 @@ Note you must instantiate `NoMatchRule` at most **once** for a given event bus.
 
 ![Architecture diagram](./diagram.png)
 
-## Commands
+## Commands FREDJ
 
 - `npm run build` compile typescript to js
 - `npm run watch` watch for changes and compile
